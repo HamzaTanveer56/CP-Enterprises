@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>
+    CP Enterprises
+  </title>
+  <link rel="shortcut icon" href="./assets/images/logo/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/animate.css" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+
+  <!-- ==== WOW JS ==== -->
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+
+</head>
+
+<body>
+  <!-- ====== Navbar Section Start -->
+  <div class="ud-header absolute top-0 left-0 z-40 flex w-full items-center bg-transparent">
+    <div class="container">
+      <div class="relative -mx-4 flex items-center justify-between">
+        <div class="w-60 max-w-full px-4">
+          <a href="index.html" class="navbar-logo block w-full py-5">
+            <img src="./assets/images/logo/logo-white.png" alt="logo" class="header-logo w-full" />
+          </a>
+        </div>
+        <div class="flex w-full items-center justify-between px-4">
+          <div>
+            <button id="navbarToggler"
+              class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
+              <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
+              <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
+              <span class="relative my-[6px] block h-[2px] w-[30px] bg-white"></span>
+            </button>
+            <nav id="navbarCollapse"
+              class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:py-0 lg:px-4 lg:shadow-none xl:px-6">
+              <ul class="blcok lg:flex">
+                <li class="group relative">
+                  <a href="index.html"
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70">
+                    Home
+                  </a>
+                </li>
+                <li class="group relative">
+                  <a href="#about"
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12">
+                    About
+                  </a>
+                </li>
+                <li class="submenu-item group relative">
+                  <a href="#services"
+                    class="relative mx-8 flex py-2 text-base text-dark after:absolute after:right-1 after:top-1/2 after:mt-[-2px] after:h-2 after:w-2 after:-translate-y-1/2 after:rotate-45 after:border-b-2 after:border-r-2 after:border-current group-hover:text-primary lg:mr-0 lg:ml-8 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 lg:text-white lg:after:right-0 lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12">
+                    Services
+                  </a>
+                  <div
+                    class="submenu relative top-full left-0 hidden w-[250px] rounded-sm bg-white p-4 transition-[top] duration-300 group-hover:opacity-100 lg:invisible lg:absolute lg:top-[110%] lg:block lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full">
+                    <a href="products.html"
+                      class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
+                      Cleaning Products and Materials imports and exports
+                    </a>
+                    <a href="web-designing.html"
+                      class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
+                      Web Designing
+                    </a>
+                    <a href="online-advertising.html"
+                      class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
+                      Online Advertising
+                    </a>
+                    <a href="marketing.html"
+                      class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
+                      Marketing
+                    </a>
+                    <a href="ecommerce.html"
+                      class="block rounded py-[10px] px-4 text-sm text-body-color hover:text-primary">
+                      Ecommerce
+                    </a>
+                  </div>
+                </li>
+                <li class="group relative">
+                  <a href="#contactus"
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12">
+                    Contact
+                  </a>
+                </li>
+                <li class="group relative">
+                  <a href="#blogs"
+                    class="ud-menu-scroll mx-8 flex py-2 text-base text-dark group-hover:text-primary lg:mr-0 lg:ml-7 lg:inline-flex lg:py-6 lg:px-0 lg:text-white lg:group-hover:text-white lg:group-hover:opacity-70 xl:ml-12">
+                    Blog
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ====== Navbar Section End -->
+
+  <!-- ====== Hero Section Start -->
+  <div id="home" class="relative overflow-hidden bg-primary pt-[120px] md:pt-[130px] lg:pt-[160px]">
+    <div class="container">
+      <div class="-mx-4 flex flex-wrap items-center">
+        <div class="w-full px-4">
+          <div class="hero-content wow fadeInUp mx-auto max-w-[780px] text-center" data-wow-delay=".2s">
+            <h1
+              class="mb-8 text-3xl font-bold leading-snug text-white sm:text-4xl sm:leading-snug md:text-[45px] md:leading-snug">
+              CP Enterprises
+            </h1>
+            <p
+              class="mx-auto mb-10 max-w-[600px] text-base text-[#e4e4e4] sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed">
+              Whole Sale and Trade - Ecommerce - Retail Sale in non-specialized stores / Other retail sale in
+              non-specialized stores - Digital Marketing</non-specialized>
+            </p>
+            <ul class="mb-10 flex flex-wrap items-center justify-center">
+              <li>
+                <a href="about.html"
+                  class="inline-flex items-center justify-center rounded-lg bg-white py-4 px-6 text-center text-base font-medium text-dark transition duration-300 ease-in-out hover:text-primary hover:shadow-lg sm:px-10">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="contactus.html"
+                  class="flex items-center py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:opacity-70 sm:px-10">
+                  Contact Us
+                  <span class="pl-2">
+                    <svg width="20" height="8" viewBox="0 0 20 8" class="fill-current">
+                      <path
+                        d="M19.2188 2.90632L17.0625 0.343819C16.875 0.125069 16.5312 0.0938193 16.2812 0.281319C16.0625 0.468819 16.0312 0.812569 16.2188 1.06257L18.25 3.46882H0.9375C0.625 3.46882 0.375 3.71882 0.375 4.03132C0.375 4.34382 0.625 4.59382 0.9375 4.59382H18.25L16.2188 7.00007C16.0312 7.21882 16.0625 7.56257 16.2812 7.78132C16.375 7.87507 16.5 7.90632 16.625 7.90632C16.7812 7.90632 16.9375 7.84382 17.0312 7.71882L19.1875 5.15632C19.75 4.46882 19.75 3.53132 19.2188 2.90632Z" />
+                    </svg>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full px-4">
+          <div class="wow fadeInUp relative z-10 mx-auto max-w-[845px]" data-wow-delay=".25s">
+            <div class="mt-16">
+              <img src="./assets/images/hero/image.jpg" alt="hero"
+                class="mx-auto max-w-full rounded-t-xl rounded-tr-xl" />
+            </div>
+            <div class="absolute bottom-0 -left-9 z-[-1]">
+              <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="white" />
+                <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="white" />
+                <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="white" />
+                <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="white" />
+                <circle cx="60.3333" cy="104" r="1.66667" transform="rotate(-90 60.3333 104)" fill="white" />
+                <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="white" />
+                <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="white" />
+                <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="white" />
+                <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="white" />
+                <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="white" />
+                <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)" fill="white" />
+                <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)" fill="white" />
+                <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="white" />
+                <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)" fill="white" />
+                <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)" fill="white" />
+                <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)" fill="white" />
+                <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)" fill="white" />
+                <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)" fill="white" />
+                <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="white" />
+                <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="white" />
+                <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)" fill="white" />
+                <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)" fill="white" />
+                <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)" fill="white" />
+                <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)" fill="white" />
+                <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="white" />
+                <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="white" />
+                <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)" fill="white" />
+                <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)" fill="white" />
+                <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)" fill="white" />
+                <circle cx="60.3333" cy="31.0001" r="1.66667" transform="rotate(-90 60.3333 31.0001)" fill="white" />
+                <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)" fill="white" />
+                <circle cx="88.6667" cy="31.0001" r="1.66667" transform="rotate(-90 88.6667 31.0001)" fill="white" />
+                <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)" fill="white" />
+                <circle cx="117.667" cy="31.0001" r="1.66667" transform="rotate(-90 117.667 31.0001)" fill="white" />
+                <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)" fill="white" />
+                <circle cx="74.6667" cy="31.0001" r="1.66667" transform="rotate(-90 74.6667 31.0001)" fill="white" />
+                <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="white" />
+                <circle cx="103" cy="31.0001" r="1.66667" transform="rotate(-90 103 31.0001)" fill="white" />
+                <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="white" />
+                <circle cx="132" cy="31.0001" r="1.66667" transform="rotate(-90 132 31.0001)" fill="white" />
+                <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)" fill="white" />
+                <circle cx="1.66667" cy="16.3336" r="1.66667" transform="rotate(-90 1.66667 16.3336)" fill="white" />
+                <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)" fill="white" />
+                <circle cx="16.3333" cy="16.3336" r="1.66667" transform="rotate(-90 16.3333 16.3336)" fill="white" />
+                <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="white" />
+                <circle cx="31" cy="16.3336" r="1.66667" transform="rotate(-90 31 16.3336)" fill="white" />
+                <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)" fill="white" />
+                <circle cx="45.6667" cy="16.3336" r="1.66667" transform="rotate(-90 45.6667 16.3336)" fill="white" />
+                <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)" fill="white" />
+                <circle cx="60.3333" cy="16.3336" r="1.66667" transform="rotate(-90 60.3333 16.3336)" fill="white" />
+                <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)" fill="white" />
+                <circle cx="88.6667" cy="16.3336" r="1.66667" transform="rotate(-90 88.6667 16.3336)" fill="white" />
+                <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)" fill="white" />
+                <circle cx="117.667" cy="16.3336" r="1.66667" transform="rotate(-90 117.667 16.3336)" fill="white" />
+                <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)" fill="white" />
+                <circle cx="74.6667" cy="16.3336" r="1.66667" transform="rotate(-90 74.6667 16.3336)" fill="white" />
+                <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="white" />
+                <circle cx="103" cy="16.3336" r="1.66667" transform="rotate(-90 103 16.3336)" fill="white" />
+                <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="white" />
+                <circle cx="132" cy="16.3336" r="1.66667" transform="rotate(-90 132 16.3336)" fill="white" />
+                <circle cx="1.66667" cy="45.3336" r="1.66667" transform="rotate(-90 1.66667 45.3336)" fill="white" />
+                <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)" fill="white" />
+                <circle cx="16.3333" cy="45.3336" r="1.66667" transform="rotate(-90 16.3333 45.3336)" fill="white" />
+                <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)" fill="white" />
+                <circle cx="31" cy="45.3336" r="1.66667" transform="rotate(-90 31 45.3336)" fill="white" />
+                <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="white" />
+                <circle cx="45.6667" cy="45.3336" r="1.66667" transform="rotate(-90 45.6667 45.3336)" fill="white" />
+                <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)" fill="white" />
+                <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)" fill="white" />
+                <circle cx="60.3333" cy="1.66707" r="1.66667" transform="rotate(-90 60.3333 1.66707)" fill="white" />
+                <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)" fill="white" />
+                <circle cx="88.6667" cy="1.66707" r="1.66667" transform="rotate(-90 88.6667 1.66707)" fill="white" />
+                <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)" fill="white" />
+                <circle cx="117.667" cy="1.66707" r="1.66667" transform="rotate(-90 117.667 1.66707)" fill="white" />
+                <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)" fill="white" />
+                <circle cx="74.6667" cy="1.66707" r="1.66667" transform="rotate(-90 74.6667 1.66707)" fill="white" />
+                <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="white" />
+                <circle cx="103" cy="1.66707" r="1.66667" transform="rotate(-90 103 1.66707)" fill="white" />
+                <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="white" />
+                <circle cx="132" cy="1.66707" r="1.66667" transform="rotate(-90 132 1.66707)" fill="white" />
+              </svg>
+            </div>
+            <div class="absolute -top-6 -right-6 z-[-1]">
+              <svg width="134" height="106" viewBox="0 0 134 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="1.66667" cy="104" r="1.66667" transform="rotate(-90 1.66667 104)" fill="white" />
+                <circle cx="16.3333" cy="104" r="1.66667" transform="rotate(-90 16.3333 104)" fill="white" />
+                <circle cx="31" cy="104" r="1.66667" transform="rotate(-90 31 104)" fill="white" />
+                <circle cx="45.6667" cy="104" r="1.66667" transform="rotate(-90 45.6667 104)" fill="white" />
+                <circle cx="60.3333" cy="104" r="1.66667" transform="rotate(-90 60.3333 104)" fill="white" />
+                <circle cx="88.6667" cy="104" r="1.66667" transform="rotate(-90 88.6667 104)" fill="white" />
+                <circle cx="117.667" cy="104" r="1.66667" transform="rotate(-90 117.667 104)" fill="white" />
+                <circle cx="74.6667" cy="104" r="1.66667" transform="rotate(-90 74.6667 104)" fill="white" />
+                <circle cx="103" cy="104" r="1.66667" transform="rotate(-90 103 104)" fill="white" />
+                <circle cx="132" cy="104" r="1.66667" transform="rotate(-90 132 104)" fill="white" />
+                <circle cx="1.66667" cy="89.3333" r="1.66667" transform="rotate(-90 1.66667 89.3333)" fill="white" />
+                <circle cx="16.3333" cy="89.3333" r="1.66667" transform="rotate(-90 16.3333 89.3333)" fill="white" />
+                <circle cx="31" cy="89.3333" r="1.66667" transform="rotate(-90 31 89.3333)" fill="white" />
+                <circle cx="45.6667" cy="89.3333" r="1.66667" transform="rotate(-90 45.6667 89.3333)" fill="white" />
+                <circle cx="60.3333" cy="89.3338" r="1.66667" transform="rotate(-90 60.3333 89.3338)" fill="white" />
+                <circle cx="88.6667" cy="89.3338" r="1.66667" transform="rotate(-90 88.6667 89.3338)" fill="white" />
+                <circle cx="117.667" cy="89.3338" r="1.66667" transform="rotate(-90 117.667 89.3338)" fill="white" />
+                <circle cx="74.6667" cy="89.3338" r="1.66667" transform="rotate(-90 74.6667 89.3338)" fill="white" />
+                <circle cx="103" cy="89.3338" r="1.66667" transform="rotate(-90 103 89.3338)" fill="white" />
+                <circle cx="132" cy="89.3338" r="1.66667" transform="rotate(-90 132 89.3338)" fill="white" />
+                <circle cx="1.66667" cy="74.6673" r="1.66667" transform="rotate(-90 1.66667 74.6673)" fill="white" />
+                <circle cx="1.66667" cy="31.0003" r="1.66667" transform="rotate(-90 1.66667 31.0003)" fill="white" />
+                <circle cx="16.3333" cy="74.6668" r="1.66667" transform="rotate(-90 16.3333 74.6668)" fill="white" />
+                <circle cx="16.3333" cy="31.0003" r="1.66667" transform="rotate(-90 16.3333 31.0003)" fill="white" />
+                <circle cx="31" cy="74.6668" r="1.66667" transform="rotate(-90 31 74.6668)" fill="white" />
+                <circle cx="31" cy="31.0003" r="1.66667" transform="rotate(-90 31 31.0003)" fill="white" />
+                <circle cx="45.6667" cy="74.6668" r="1.66667" transform="rotate(-90 45.6667 74.6668)" fill="white" />
+                <circle cx="45.6667" cy="31.0003" r="1.66667" transform="rotate(-90 45.6667 31.0003)" fill="white" />
+                <circle cx="60.3333" cy="74.6668" r="1.66667" transform="rotate(-90 60.3333 74.6668)" fill="white" />
+                <circle cx="60.3333" cy="31.0001" r="1.66667" transform="rotate(-90 60.3333 31.0001)" fill="white" />
+                <circle cx="88.6667" cy="74.6668" r="1.66667" transform="rotate(-90 88.6667 74.6668)" fill="white" />
+                <circle cx="88.6667" cy="31.0001" r="1.66667" transform="rotate(-90 88.6667 31.0001)" fill="white" />
+                <circle cx="117.667" cy="74.6668" r="1.66667" transform="rotate(-90 117.667 74.6668)" fill="white" />
+                <circle cx="117.667" cy="31.0001" r="1.66667" transform="rotate(-90 117.667 31.0001)" fill="white" />
+                <circle cx="74.6667" cy="74.6668" r="1.66667" transform="rotate(-90 74.6667 74.6668)" fill="white" />
+                <circle cx="74.6667" cy="31.0001" r="1.66667" transform="rotate(-90 74.6667 31.0001)" fill="white" />
+                <circle cx="103" cy="74.6668" r="1.66667" transform="rotate(-90 103 74.6668)" fill="white" />
+                <circle cx="103" cy="31.0001" r="1.66667" transform="rotate(-90 103 31.0001)" fill="white" />
+                <circle cx="132" cy="74.6668" r="1.66667" transform="rotate(-90 132 74.6668)" fill="white" />
+                <circle cx="132" cy="31.0001" r="1.66667" transform="rotate(-90 132 31.0001)" fill="white" />
+                <circle cx="1.66667" cy="60.0003" r="1.66667" transform="rotate(-90 1.66667 60.0003)" fill="white" />
+                <circle cx="1.66667" cy="16.3336" r="1.66667" transform="rotate(-90 1.66667 16.3336)" fill="white" />
+                <circle cx="16.3333" cy="60.0003" r="1.66667" transform="rotate(-90 16.3333 60.0003)" fill="white" />
+                <circle cx="16.3333" cy="16.3336" r="1.66667" transform="rotate(-90 16.3333 16.3336)" fill="white" />
+                <circle cx="31" cy="60.0003" r="1.66667" transform="rotate(-90 31 60.0003)" fill="white" />
+                <circle cx="31" cy="16.3336" r="1.66667" transform="rotate(-90 31 16.3336)" fill="white" />
+                <circle cx="45.6667" cy="60.0003" r="1.66667" transform="rotate(-90 45.6667 60.0003)" fill="white" />
+                <circle cx="45.6667" cy="16.3336" r="1.66667" transform="rotate(-90 45.6667 16.3336)" fill="white" />
+                <circle cx="60.3333" cy="60.0003" r="1.66667" transform="rotate(-90 60.3333 60.0003)" fill="white" />
+                <circle cx="60.3333" cy="16.3336" r="1.66667" transform="rotate(-90 60.3333 16.3336)" fill="white" />
+                <circle cx="88.6667" cy="60.0003" r="1.66667" transform="rotate(-90 88.6667 60.0003)" fill="white" />
+                <circle cx="88.6667" cy="16.3336" r="1.66667" transform="rotate(-90 88.6667 16.3336)" fill="white" />
+                <circle cx="117.667" cy="60.0003" r="1.66667" transform="rotate(-90 117.667 60.0003)" fill="white" />
+                <circle cx="117.667" cy="16.3336" r="1.66667" transform="rotate(-90 117.667 16.3336)" fill="white" />
+                <circle cx="74.6667" cy="60.0003" r="1.66667" transform="rotate(-90 74.6667 60.0003)" fill="white" />
+                <circle cx="74.6667" cy="16.3336" r="1.66667" transform="rotate(-90 74.6667 16.3336)" fill="white" />
+                <circle cx="103" cy="60.0003" r="1.66667" transform="rotate(-90 103 60.0003)" fill="white" />
+                <circle cx="103" cy="16.3336" r="1.66667" transform="rotate(-90 103 16.3336)" fill="white" />
+                <circle cx="132" cy="60.0003" r="1.66667" transform="rotate(-90 132 60.0003)" fill="white" />
+                <circle cx="132" cy="16.3336" r="1.66667" transform="rotate(-90 132 16.3336)" fill="white" />
+                <circle cx="1.66667" cy="45.3336" r="1.66667" transform="rotate(-90 1.66667 45.3336)" fill="white" />
+                <circle cx="1.66667" cy="1.66683" r="1.66667" transform="rotate(-90 1.66667 1.66683)" fill="white" />
+                <circle cx="16.3333" cy="45.3336" r="1.66667" transform="rotate(-90 16.3333 45.3336)" fill="white" />
+                <circle cx="16.3333" cy="1.66683" r="1.66667" transform="rotate(-90 16.3333 1.66683)" fill="white" />
+                <circle cx="31" cy="45.3336" r="1.66667" transform="rotate(-90 31 45.3336)" fill="white" />
+                <circle cx="31" cy="1.66683" r="1.66667" transform="rotate(-90 31 1.66683)" fill="white" />
+                <circle cx="45.6667" cy="45.3336" r="1.66667" transform="rotate(-90 45.6667 45.3336)" fill="white" />
+                <circle cx="45.6667" cy="1.66683" r="1.66667" transform="rotate(-90 45.6667 1.66683)" fill="white" />
+                <circle cx="60.3333" cy="45.3338" r="1.66667" transform="rotate(-90 60.3333 45.3338)" fill="white" />
+                <circle cx="60.3333" cy="1.66707" r="1.66667" transform="rotate(-90 60.3333 1.66707)" fill="white" />
+                <circle cx="88.6667" cy="45.3338" r="1.66667" transform="rotate(-90 88.6667 45.3338)" fill="white" />
+                <circle cx="88.6667" cy="1.66707" r="1.66667" transform="rotate(-90 88.6667 1.66707)" fill="white" />
+                <circle cx="117.667" cy="45.3338" r="1.66667" transform="rotate(-90 117.667 45.3338)" fill="white" />
+                <circle cx="117.667" cy="1.66707" r="1.66667" transform="rotate(-90 117.667 1.66707)" fill="white" />
+                <circle cx="74.6667" cy="45.3338" r="1.66667" transform="rotate(-90 74.6667 45.3338)" fill="white" />
+                <circle cx="74.6667" cy="1.66707" r="1.66667" transform="rotate(-90 74.6667 1.66707)" fill="white" />
+                <circle cx="103" cy="45.3338" r="1.66667" transform="rotate(-90 103 45.3338)" fill="white" />
+                <circle cx="103" cy="1.66707" r="1.66667" transform="rotate(-90 103 1.66707)" fill="white" />
+                <circle cx="132" cy="45.3338" r="1.66667" transform="rotate(-90 132 45.3338)" fill="white" />
+                <circle cx="132" cy="1.66707" r="1.66667" transform="rotate(-90 132 1.66707)" fill="white" />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ====== Hero Section End -->
+
+  <!-- ====== Features Section Start -->
+  <section class="pt-20 pb-8 lg:pt-[120px] lg:pb-[70px]" id="services">
+    <div class="container">
+      <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4">
+          <div class="mb-12 max-w-[620px] lg:mb-20">
+            <span class="mb-2 block text-lg font-semibold text-primary">
+              Activities
+            </span>
+            <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
+              Services
+            </h2>
+            <p class="text-lg leading-relaxed text-body-color sm:text-xl sm:leading-relaxed">
+              This enterprise is providing its services in following areas
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div class="wow fadeInUp group mb-12 bg-white" data-wow-delay=".1s">
+            <div class="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+              <span
+                class="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
+              <svg fill="#ffffff" viewBox="-14.94 0 122.88 122.88" width="40" height="40" version="1.1" id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                style="enable-background:new 0 0 93 122.88" xml:space="preserve" stroke="#ffffff">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <path
+                      d="M14.6,43.74h15.78c4.87,0,6.1,3.36,6.1,7.71c0,2.02-0.29,4.29-0.58,6.49c-0.47,3.64-0.91,7.06,0.09,8.3 c1.67,2.08,4.08,4.49,6.66,7.07c6.39,6.4,13.77,13.79,14.32,20.41c0.33,4.05,0.4,9.27-0.33,14.09c-0.56,3.72-1.61,7.23-3.38,9.85 c-0.91,1.34-1.97,2.54-3.33,3.46c-1.37,0.92-3.02,1.55-5.09,1.74c-0.03,0-0.07,0-0.1,0v0H18.08c-0.05,0-0.1,0-0.14-0.01 c-2.84-0.16-5.4-0.81-7.55-2.13c-2.21-1.36-3.95-3.41-5.1-6.34c-0.03-0.08-0.05-0.16-0.06-0.24c-2.42-11.87-3.41-23.7-2.25-35.36 c1.16-11.71,4.48-23.25,10.68-34.47C13.84,43.95,14.22,43.75,14.6,43.74L14.6,43.74L14.6,43.74z M4.75,84.84 c18.15,4.31,27.95-9.61,44.29-1.6c-2.41-2.85-5.26-5.71-7.92-8.38c-2.62-2.62-5.07-5.08-6.82-7.24c-1.59-1.97-1.09-5.84-0.56-9.95 c0.27-2.1,0.55-4.27,0.55-6.21c0-3.1-0.79-5.51-3.91-5.51H15.25C9.41,56.72,6.26,67.78,5.15,79C4.95,80.94,4.82,82.89,4.75,84.84 L4.75,84.84z M46.12,6.97L46,20.87c0,0.5-0.34,0.92-0.8,1.04l0,0c-3.35,0.95-6.3,2.23-8.56,4.22c-2.2,1.94-3.78,4.6-4.49,8.36v4.75 c0,0.61-0.49,1.1-1.1,1.1H15.12c-0.95,0.09-1.71-0.13-2.3-0.72c-0.54-0.55-0.83-1.39-0.84-2.57c0-0.04,0-0.08,0-0.11 c0.36-3.9-0.44-6.81-2.28-9.08c-1.89-2.32-4.93-4.05-8.98-5.52c-0.57-0.21-0.86-0.83-0.66-1.4l0-0.01h0c2.19-5.8,5.57-9.5,9.8-11.8 c4.18-2.27,9.16-3.13,14.62-3.28c3.41-0.09,6.84-0.16,10.28-0.17c3.44-0.01,6.87,0.03,10.29,0.16C45.67,5.85,46.14,6.36,46.12,6.97 L46.12,6.97L46.12,6.97z M43.82,20.04l0.1-12.05c-3.06-0.1-6.11-0.13-9.15-0.12c-3.4,0.01-6.81,0.08-10.23,0.17 c-5.14,0.14-9.79,0.94-13.63,3.02c-3.54,1.92-6.41,4.96-8.39,9.63c3.9,1.52,6.88,3.35,8.88,5.8c2.21,2.71,3.17,6.11,2.77,10.6 c0.01,0.55,0.09,0.88,0.22,1.02c0.07,0.07,0.25,0.09,0.52,0.07c0.06-0.01,0.12-0.02,0.18-0.02h14.87v-3.73h0 c0-0.06,0.01-0.13,0.02-0.19c0.8-4.36,2.63-7.45,5.21-9.73C37.56,22.41,40.5,21.04,43.82,20.04L43.82,20.04z M48.36,6.65 l0.09,13.36h6.53c0.92,0.03,1.39-0.74,1.17-2.73V8.9c-0.02-0.73-0.32-1.21-0.88-1.46L48.36,6.65L48.36,6.65z M70.11,10.99 c1.89,0,3.42,1.29,3.42,2.89c0,1.6-1.53,2.89-3.42,2.89c-1.89,0-3.42-1.29-3.42-2.89C66.69,12.28,68.22,10.99,70.11,10.99 L70.11,10.99z M89.58,10.7c1.89,0,3.42,1.29,3.42,2.89c0,1.6-1.53,2.89-3.42,2.89c-1.89,0-3.42-1.29-3.42-2.89 C86.16,11.99,87.69,10.7,89.58,10.7L89.58,10.7z M89.2,21.59c1.89,0,3.42,1.29,3.42,2.89c0,1.6-1.53,2.89-3.42,2.89 s-3.42-1.29-3.42-2.89C85.78,22.88,87.31,21.59,89.2,21.59L89.2,21.59z M79.75,16.48c1.89,0,3.42,1.29,3.42,2.89 c0,1.6-1.53,2.89-3.42,2.89c-1.89,0-3.42-1.29-3.42-2.89C76.33,17.78,77.86,16.48,79.75,16.48L79.75,16.48z M89.58,0 C91.47,0,93,1.29,93,2.89c0,1.6-1.53,2.89-3.42,2.89c-1.89,0-3.42-1.29-3.42-2.89C86.16,1.29,87.69,0,89.58,0L89.58,0z M79.85,5.49 c1.89,0,3.42,1.29,3.42,2.89c0,1.6-1.53,2.89-3.42,2.89c-1.89,0-3.42-1.29-3.42-2.89C76.42,6.79,77.96,5.49,79.85,5.49L79.85,5.49z M36.89,35.65c1.16-4.65,3.94-7.71,8.62-8.9c1.05,7.48,3.33,13.49,6.51,18.38c1.94,2.74-1.21,5.57-3.48,2.68l-7.36-12.04 L36.89,35.65L36.89,35.65z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h4 class="mb-3 text-xl font-bold text-dark">
+              Cleaning Products and Materials imports & exports
+            </h4>
+            <p class="mb-8 text-body-color lg:mb-11">
+              Brilliant Firm to provide import-exports all around in the world.
+            </p>
+            <a href="products.html" class="text-base font-medium text-body-color hover:text-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div class="wow fadeInUp group mb-12 bg-white" data-wow-delay=".15s">
+            <div class="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+              <span
+                class="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
+              <svg fill="#ffffff" version="1.1" width="40" height="40" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 419.931 419.931" xml:space="preserve"
+                stroke="#ffffff">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g>
+                    <g>
+                      <g>
+                        <path
+                          d="M282.895,352.367c-2.176-1.324-4.072-3.099-5.579-5.25c-0.696-0.992-1.284-2.041-1.771-3.125H28.282V100.276h335.624 v159.138c7.165,0.647,13.177,5.353,15.701,11.797c2.235-1.225,4.726-1.982,7.344-2.213c1.771-0.154,3.53-0.044,5.236,0.293 V39.561c0-12.996-10.571-23.569-23.566-23.569H23.568C10.573,15.992,0,26.565,0,39.561v309.146 c0,12.996,10.573,23.568,23.568,23.568h257.179c-2.007-4.064-2.483-8.652-1.302-13.066 C280.126,356.67,281.304,354.354,282.895,352.367z M338.025,55.569c0-4.806,3.896-8.703,8.702-8.703h8.702 c4.807,0,8.702,3.896,8.702,8.703v9.863c0,4.806-3.896,8.702-8.702,8.702h-8.702c-4.807,0-8.702-3.896-8.702-8.702V55.569z M297.56,55.569c0-4.806,3.896-8.703,8.702-8.703h8.703c4.807,0,8.702,3.896,8.702,8.703v9.863c0,4.806-3.896,8.702-8.702,8.702 h-8.703c-4.806,0-8.702-3.896-8.702-8.702V55.569z M257.094,55.569c0-4.806,3.897-8.703,8.702-8.703h8.702 c4.807,0,8.703,3.896,8.703,8.703v9.863c0,4.806-3.896,8.702-8.703,8.702h-8.702c-4.805,0-8.702-3.896-8.702-8.702V55.569z">
+                        </path>
+                        <path
+                          d="M419.875,335.77l-2.615-14.83c-0.353-1.997-2.256-3.331-4.255-2.979l-13.188,2.324c-1.583-3.715-3.605-7.195-6.005-10.38 l8.614-10.268c0.626-0.744,0.931-1.709,0.847-2.68c-0.086-0.971-0.554-1.867-1.3-2.494l-11.534-9.68 c-0.746-0.626-1.713-0.93-2.683-0.845c-0.971,0.085-1.867,0.552-2.493,1.298l-8.606,10.26c-3.533-1.8-7.312-3.188-11.271-4.104 v-13.392c0-2.028-1.645-3.674-3.673-3.674h-15.06c-2.027,0-3.673,1.646-3.673,3.674v13.392 c-3.961,0.915-7.736,2.304-11.271,4.104l-8.608-10.259c-1.304-1.554-3.62-1.756-5.175-0.453l-11.535,9.679 c-0.746,0.627-1.213,1.523-1.299,2.494c-0.084,0.971,0.22,1.937,0.846,2.683l8.615,10.266c-2.396,3.184-4.422,6.666-6.005,10.38 l-13.188-2.325c-1.994-0.351-3.901,0.982-4.255,2.979l-2.614,14.83c-0.169,0.959,0.05,1.945,0.607,2.744 c0.561,0.799,1.41,1.342,2.37,1.511l13.198,2.326c0.215,4.089,0.927,8.045,2.073,11.812l-11.6,6.695 c-0.844,0.485-1.459,1.289-1.712,2.229c-0.252,0.941-0.119,1.943,0.367,2.787l7.529,13.041c0.485,0.844,1.289,1.459,2.229,1.711 c0.313,0.084,0.632,0.125,0.951,0.125c0.639,0,1.272-0.166,1.836-0.492l11.609-6.703c2.73,2.925,5.812,5.517,9.18,7.709 l-4.584,12.593c-0.332,0.916-0.289,1.926,0.123,2.809s1.157,1.566,2.072,1.898l14.148,5.149c0.406,0.148,0.832,0.224,1.257,0.224 c0.53,0,1.063-0.115,1.554-0.345c0.883-0.411,1.564-1.157,1.897-2.073l4.583-12.593c1.965,0.238,3.965,0.361,5.994,0.361 s4.029-0.125,5.994-0.361l4.584,12.593c0.332,0.916,1.016,1.662,1.897,2.073c0.49,0.229,1.021,0.345,1.554,0.345 c0.424,0,0.85-0.074,1.256-0.224l14.15-5.149c0.913-0.332,1.659-1.017,2.07-1.898c0.412-0.883,0.456-1.893,0.123-2.809 l-4.584-12.591c3.365-2.192,6.447-4.786,9.18-7.709l11.609,6.703c0.563,0.324,1.197,0.492,1.836,0.492 c0.318,0,0.64-0.043,0.951-0.125c0.941-0.252,1.743-0.869,2.229-1.711l7.529-13.043c0.486-0.842,0.619-1.846,0.367-2.787 c-0.253-0.938-0.868-1.742-1.712-2.229l-11.598-6.693c1.146-3.768,1.856-7.724,2.071-11.812l13.198-2.327 c0.96-0.169,1.812-0.712,2.37-1.511C419.825,337.715,420.044,336.729,419.875,335.77z M354.184,359.336 c-11.155,0-20.2-9.045-20.2-20.201s9.046-20.2,20.2-20.2c11.156,0,20.201,9.044,20.201,20.2S365.34,359.336,354.184,359.336z">
+                        </path>
+                        <g>
+                          <path
+                            d="M164.695,235.373c0-4.752-2.785-9.117-7.096-11.119l-39.455-18.332l39.456-18.334c4.31-2.004,7.095-6.368,7.095-11.118 v-0.319c0-4.21-2.119-8.075-5.665-10.334c-1.962-1.253-4.247-1.916-6.606-1.916c-1.778,0-3.563,0.391-5.16,1.133l-63.078,29.333 c-4.309,2.004-7.092,6.368-7.092,11.117v0.877c0,4.743,2.782,9.104,7.093,11.118l63.084,29.336 c1.631,0.755,3.368,1.138,5.162,1.138c2.338,0,4.616-0.664,6.597-1.924c3.548-2.268,5.666-6.13,5.666-10.335L164.695,235.373 L164.695,235.373z">
+                          </path>
+                          <path
+                            d="M226.932,134.012c-2.301-3.15-6.002-5.03-9.901-5.03h-0.314c-5.354,0-10.048,3.425-11.679,8.516L163.478,266.27 c-1.183,3.718-0.517,7.813,1.781,10.962c2.301,3.148,6.002,5.029,9.901,5.029h0.315c5.352,0,10.043-3.426,11.672-8.516 l41.555-128.762C229.896,141.268,229.234,137.167,226.932,134.012z">
+                          </path>
+                          <path
+                            d="M308.001,194.366l-63.079-29.333c-1.592-0.74-3.374-1.131-5.152-1.131c-2.358,0-4.644,0.661-6.605,1.912 c-3.552,2.263-5.671,6.127-5.671,10.337v0.319c0,4.746,2.783,9.111,7.097,11.123l39.454,18.33l-39.455,18.331 c-4.311,2.002-7.096,6.367-7.096,11.119v0.321c0,4.205,2.119,8.066,5.669,10.336c1.974,1.258,4.254,1.923,6.595,1.923 c1.792,0,3.527-0.383,5.169-1.141l63.082-29.336c4.307-2.009,7.088-6.371,7.088-11.114v-0.877 C315.094,200.735,312.311,196.371,308.001,194.366z">
+                          </path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h4 class="mb-3 text-xl font-bold text-dark">
+              Web Designing
+            </h4>
+            <p class="mb-8 text-body-color lg:mb-11">
+              We have highly skilled development team with excellent technical knowledge and experience.
+            </p>
+            <a href="web-designing.html" class="text-base font-medium text-body-color hover:text-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div class="wow fadeInUp group mb-12 bg-white" data-wow-delay=".2s">
+            <div class="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+              <span
+                class="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
+              <svg viewBox="0 0 1000 1000" height="50" width="50" id="Layer_2" version="1.1" xml:space="preserve"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#ffffff"
+                stroke="#ffffff">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M817.91,308h-33.45v307c0,30.33-24.68,55-55,55H270.83c-30.33,0-55-24.67-55-55V308h-33.45 c-16.57,0-30,13.43-30,30v380c0,16.57,13.43,30,30,30h635.53c16.57,0,30-13.43,30-30V338C847.91,321.43,834.48,308,817.91,308z M500.14,721.5c-6.9,0-12.5-5.6-12.5-12.5s5.6-12.5,12.5-12.5c6.91,0,12.5,5.6,12.5,12.5S507.05,721.5,500.14,721.5z"
+                    style="fill:#ffffff;"></path>
+                  <path
+                    d="M591.31,843.96l-1.93,4.309H410.91l-1.94-4.309c-7.26-16.24-3.76-35.27,8.82-47.85L440.9,773h118.49 l23.11,23.11C595.07,808.69,598.58,827.72,591.31,843.96z"
+                    style="fill:#ffffff;"></path>
+                  <path
+                    d="M240.831,182.731v72.8h518.688v-72.8c0-16.5-13.5-30-30-30H270.831 C254.331,152.731,240.831,166.231,240.831,182.731z M667,204.132c0-6.875,5.625-12.5,12.5-12.5h28c6.875,0,12.5,5.625,12.5,12.5 s-5.625,12.5-12.5,12.5h-28C672.625,216.632,667,211.007,667,204.132z M583.5,204.132c0-6.875,5.625-12.5,12.5-12.5h28 c6.875,0,12.5,5.625,12.5,12.5s-5.625,12.5-12.5,12.5h-28C589.125,216.632,583.5,211.007,583.5,204.132z M500,204.132 c0-6.875,5.625-12.5,12.5-12.5h28c6.875,0,12.5,5.625,12.5,12.5s-5.625,12.5-12.5,12.5h-28C505.625,216.632,500,211.007,500,204.132 z"
+                    style="fill:#ffffff;"></path>
+                  <g>
+                    <path
+                      d="M609.471,360c-14.146,0-25.614,11.468-25.614,25.613c0,14.146,11.468,25.614,25.614,25.614 s25.614-11.468,25.614-25.614C635.085,371.468,623.618,360,609.471,360z"
+                      style="fill:#ffffff;"></path>
+                    <path
+                      d="M609.472,528c-6.892,0-12.5,5.346-12.5,11.917s5.608,11.918,12.5,11.918 c6.893,0,12.5-5.347,12.5-11.918S616.364,528,609.472,528z"
+                      style="fill:#ffffff;"></path>
+                    <path
+                      d="M240.831,280.531V615c0,16.5,13.5,30,30,30h458.688c16.5,0,30-13.5,30-30V280.531H240.831z M540.748,473.476c0,5.418-4.055,9.98-9.436,10.614l-17.161,2.023c-2.112,9.752-5.96,18.864-11.209,26.993l10.723,13.59 c3.356,4.253,2.998,10.346-0.833,14.178l-6.693,6.692c-3.831,3.832-9.924,4.19-14.178,0.833l-13.589-10.723 c-8.129,5.249-17.241,9.098-26.994,11.209l-2.023,17.162c-0.635,5.381-5.196,9.436-10.614,9.436h-9.465 c-5.418,0-9.979-4.056-10.614-9.436l-2.023-17.162c-9.752-2.111-18.865-5.96-26.994-11.209l-13.589,10.723 c-4.254,3.357-10.346,2.999-14.178-0.833l-6.693-6.692c-3.831-3.832-4.189-9.925-0.833-14.178l10.723-13.59 c-5.249-8.129-9.098-17.241-11.209-26.993l-17.161-2.023c-5.382-0.635-9.436-5.196-9.436-10.614v-9.466 c0-5.418,4.055-9.979,9.436-10.614l17.161-2.023c2.112-9.752,5.96-18.864,11.209-26.993l-10.723-13.59 c-3.356-4.254-2.999-10.346,0.833-14.178l6.693-6.692c3.832-3.832,9.924-4.189,14.178-0.833l13.589,10.723 c8.129-5.25,17.241-9.098,26.994-11.209l2.023-17.162c0.634-5.381,5.195-9.436,10.614-9.436h9.465c5.419,0,9.98,4.056,10.614,9.436 l2.023,17.162c9.752,2.111,18.865,5.959,26.994,11.209l13.589-10.723c4.254-3.356,10.346-2.999,14.178,0.833l6.693,6.692 c3.831,3.832,4.189,9.924,0.833,14.178l-10.723,13.59c5.25,8.129,9.098,17.241,11.209,26.993l17.161,2.023 c5.381,0.635,9.436,5.196,9.436,10.614V473.476z M673.085,542.738c0,3.229-2.417,5.947-5.624,6.325l-10.228,1.206 c-1.259,5.813-3.552,11.242-6.68,16.087l6.39,8.099c2,2.535,1.787,6.166-0.496,8.449l-3.989,3.989 c-2.283,2.283-5.914,2.497-8.449,0.496l-8.099-6.39c-4.844,3.128-10.275,5.422-16.087,6.68l-1.206,10.228 c-0.378,3.207-3.096,5.624-6.326,5.624h-5.641c-3.229,0-5.947-2.417-6.326-5.624l-1.206-10.228 c-5.812-1.258-11.243-3.552-16.087-6.68l-8.099,6.39c-2.535,2.001-6.166,1.787-8.449-0.496l-3.989-3.989 c-2.283-2.283-2.497-5.914-0.496-8.449l6.39-8.099c-3.129-4.845-5.422-10.275-6.68-16.087l-10.228-1.206 c-3.207-0.378-5.624-3.097-5.624-6.325v-5.642c0-3.229,2.417-5.947,5.624-6.325l10.228-1.206c1.258-5.813,3.552-11.243,6.68-16.087 l-6.39-8.1c-2-2.535-1.787-6.166,0.496-8.449l3.989-3.988c2.284-2.283,5.914-2.497,8.449-0.497l8.099,6.391 c4.844-3.128,10.275-5.422,16.087-6.681l1.206-10.228c0.378-3.207,3.096-5.623,6.326-5.623h5.641c3.229,0,5.948,2.416,6.326,5.623 l1.206,10.228c5.812,1.259,11.243,3.553,16.087,6.681l8.099-6.391c2.535-2,6.166-1.786,8.449,0.497l3.989,3.988 c2.283,2.283,2.497,5.914,0.496,8.449l-6.39,8.1c3.129,4.844,5.422,10.274,6.68,16.087l10.228,1.206 c3.207,0.378,5.624,3.096,5.624,6.325V542.738z M673.085,388.435c0,3.229-2.417,5.947-5.624,6.325l-10.228,1.206 c-1.259,5.813-3.552,11.243-6.68,16.087l6.39,8.1c2,2.535,1.787,6.166-0.496,8.449l-3.989,3.988 c-2.283,2.283-5.914,2.497-8.449,0.497l-8.099-6.391c-4.844,3.128-10.275,5.422-16.087,6.681l-1.206,10.227 c-0.378,3.207-3.096,5.623-6.326,5.623h-5.641c-3.229,0-5.947-2.416-6.326-5.623l-1.206-10.227 c-5.812-1.259-11.243-3.553-16.087-6.681l-8.099,6.391c-2.535,2-6.166,1.786-8.449-0.497l-3.989-3.988 c-2.283-2.283-2.497-5.914-0.496-8.449l6.39-8.1c-3.129-4.844-5.422-10.274-6.68-16.087l-10.228-1.206 c-3.207-0.378-5.624-3.096-5.624-6.325v-5.642c0-3.228,2.417-5.947,5.624-6.325l10.228-1.206c1.258-5.811,3.552-11.243,6.68-16.087 l-6.39-8.099c-2-2.535-1.787-6.166,0.496-8.45l3.989-3.988c2.284-2.283,5.914-2.497,8.449-0.496l8.099,6.39 c4.844-3.128,10.275-5.422,16.087-6.68l1.206-10.228c0.378-3.207,3.096-5.624,6.326-5.624h5.641c3.229,0,5.948,2.417,6.326,5.624 l1.206,10.228c5.812,1.258,11.243,3.552,16.087,6.68l8.099-6.39c2.535-2.001,6.166-1.787,8.449,0.496l3.989,3.988 c2.283,2.284,2.497,5.915,0.496,8.45l-6.39,8.099c3.129,4.844,5.422,10.274,6.68,16.087l10.228,1.206 c3.207,0.378,5.624,3.097,5.624,6.325V388.435z"
+                      style="fill:#ffffff;"></path>
+                    <path
+                      d="M434.006,411.742c-31.43,0-57,25.57-57,57s25.57,57,57,57c31.43,0,57-25.57,57-57 S465.436,411.742,434.006,411.742z M434.006,500.742c-17.645,0-32-14.355-32-32s14.355-32,32-32c17.645,0,32,14.355,32,32 S451.651,500.742,434.006,500.742z"
+                      style="fill:#ffffff;"></path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h4 class="mb-3 text-xl font-bold text-dark">
+              Online Advertising
+            </h4>
+            <p class="mb-8 text-body-color lg:mb-11">
+              Our skilled social media experts helps you in promoting your fresh businesses through social media
+              handles.
+            </p>
+            <a href="online-advertising.html" class="text-base font-medium text-body-color hover:text-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div class="wow fadeInUp group mb-12 bg-white" data-wow-delay=".25s">
+            <div class="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+              <span
+                class="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
+              <svg fill="#ffffff" height="45" width="45" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M14.25 2.1a1.25 1.25 0 0 0-1.17-.1L6.91 4.43a1.22 1.22 0 0 1-.46.09H2.5a1.25 1.25 0 0 0-1.25 1.25v.1H0v3h1.25V9a1.25 1.25 0 0 0 1.25 1.22L4 13.4a1.26 1.26 0 0 0 1.13.72h.63A1.25 1.25 0 0 0 7 12.87v-2.53l6.08 2.43a1.27 1.27 0 0 0 .47.09 1.29 1.29 0 0 0 .7-.22 1.25 1.25 0 0 0 .55-1V3.13a1.25 1.25 0 0 0-.55-1.03zm-8.5 3.67V9H2.5V5.77zm0 7.1h-.63l-1.23-2.65h1.86zm1.62-3.72A2.29 2.29 0 0 0 7 9V5.7a2.26 2.26 0 0 0 .37-.11l6.18-2.46v8.48zm7.46-3.03v2.5a1.25 1.25 0 0 0 0-2.5z">
+                  </path>
+                </g>
+              </svg>
+            </div>
+            <h4 class="mb-3 text-xl font-bold text-dark">
+              Marketing
+            </h4>
+            <p class="mb-8 text-body-color lg:mb-11">
+              We provide end to end Brand Design & Marketing Solutions through Content marketing, E-mail marketing.
+            </p>
+            <a href="marketing.html" class="text-base font-medium text-body-color hover:text-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-1/2 lg:w-1/4">
+          <div class="wow fadeInUp group mb-12 bg-white" data-wow-delay=".25s">
+            <div class="relative z-10 mb-8 flex h-[70px] w-[70px] items-center justify-center rounded-2xl bg-primary">
+              <span
+                class="absolute top-0 left-0 z-[-1] mb-8 flex h-[70px] w-[70px] rotate-[25deg] items-center justify-center rounded-2xl bg-primary bg-opacity-20 duration-300 group-hover:rotate-45"></span>
+              <svg fill="#ffffff" height="45" width="45" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg"
+                stroke="#ffffff">
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                <g id="SVGRepo_iconCarrier">
+                  <g data-name="12 site" id="_12_site">
+                    <path d="M17.5,9.08a2,2,0,1,1-2-2.03A2.021,2.021,0,0,1,17.5,9.08Z"></path>
+                    <path d="M11.5,9.08a2,2,0,1,1-2-2.03A2.021,2.021,0,0,1,11.5,9.08Z"></path>
+                    <path d="M23.5,9.08a2,2,0,1,1-2-2.03A2.021,2.021,0,0,1,23.5,9.08Z"></path>
+                    <path
+                      d="M58.5,3.5H5.5a2.006,2.006,0,0,0-2,2v53a2.006,2.006,0,0,0,2,2h53a2.006,2.006,0,0,0,2-2V5.5A2.006,2.006,0,0,0,58.5,3.5Zm0,55H5.5V14.67h53Zm0-45.83H5.5V5.5h53Z">
+                    </path>
+                    <path
+                      d="M56.21,9.91a1,1,0,0,1-.01,1.41.96.96,0,0,1-.7.29.976.976,0,0,1-.71-.3l-.79-.8-.79.8a.976.976,0,0,1-.71.3.96.96,0,0,1-.7-.29,1,1,0,0,1-.01-1.41l.81-.83-.81-.82a1.008,1.008,0,0,1,.01-1.42,1,1,0,0,1,1.41.01l.79.81.79-.81a1,1,0,0,1,1.41-.01,1.008,1.008,0,0,1,.01,1.42l-.81.82Z">
+                    </path>
+                    <path d="M49.5,9.08a1,1,0,0,1-1,1h-4a1,1,0,0,1,0-2h4A1,1,0,0,1,49.5,9.08Z"></path>
+                    <path
+                      d="M20.15,42.89l3.63-2.09H41.45A2.889,2.889,0,0,0,44,39.24l5.67-10.71a3.089,3.089,0,0,0-.22-3.22l-.72-1.02a2.906,2.906,0,0,0-2.34-1.22h-.01l-23.57.06-.15-1.54a3.084,3.084,0,0,0-3.03-2.81H13.98a1,1,0,0,0,0,2h5.65a1.09,1.09,0,0,1,1.04,1.02l1.78,17.46-3.37,1.95a3.158,3.158,0,0,0-1.34,2.6v.28a3.113,3.113,0,0,0,2.83,3.13,4.653,4.653,0,0,0-.78,2.59,4.408,4.408,0,1,0,8.81,0,4.684,4.684,0,0,0-.77-2.57H36.9a4.6,4.6,0,0,0-.77,2.57,4.408,4.408,0,1,0,8.81,0,4.684,4.684,0,0,0-.77-2.57h1.81a1,1,0,0,0,0-2H20.79a1.107,1.107,0,0,1-1.05-1.15v-.28A1.211,1.211,0,0,1,20.15,42.89ZM42.24,38.3a.915.915,0,0,1-.79.5H24.41L23.38,28.66l23.96-.01Zm4.14-13.23h.01a.87.87,0,0,1,.71.38l.73,1.02c.03.05.06.11.09.17l-24.75.02-.15-1.53ZM40.53,47.24a2.581,2.581,0,1,1-2.4,2.57A2.494,2.494,0,0,1,40.53,47.24Zm-16.34,0a2.581,2.581,0,1,1-2.4,2.57A2.494,2.494,0,0,1,24.19,47.24Z">
+                    </path>
+                  </g>
+                </g>
+              </svg>
+            </div>
+            <h4 class="mb-3 text-xl font-bold text-dark">
+              Ecommerce
+            </h4>
+            <p class="mb-8 text-body-color lg:mb-11">
+              Grow and run your wholesale business for flexibility and customization, for all your buyers. </p>
+            <a href="ecommerce.html" class="text-base font-medium text-body-color hover:text-primary">
+              Learn More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Features Section End -->
+
+  <!-- ====== About Section Start -->
+  <section id="about" class="bg-[#f3f4fe] pt-20 pb-20 lg:pt-[120px] lg:pb-[120px]">
+    <div class="container">
+      <div class="wow fadeInUp bg-white" data-wow-delay=".2s">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4">
+            <div class="items-center justify-between overflow-hidden border lg:flex">
+              <div
+                class="w-full py-12 px-7 sm:px-12 md:p-16 lg:max-w-[565px] lg:py-9 lg:px-16 xl:max-w-[640px] xl:p-[70px]">
+                <span class="mb-5 inline-block bg-primary py-2 px-5 text-sm font-medium text-white">
+                  About Us
+                </span>
+                <h2 class="mb-6 text-3xl font-bold text-dark sm:text-4xl sm:leading-snug 2xl:text-[40px]">
+                  Any activity a business engages in for the primary purpose of making a profit.
+                </h2>
+                <p class="mb-9 text-base leading-relaxed text-body-color">
+                  Over the years, CP Enterprises has grown into a high-quality player in the field of
+                  retailing and saling services, and providing promising services in imports and exports of cleaning
+                  products, web Designing, online advertising, marketing and ecommerce.
+                  CP Enterprises is active throughout the world and in various sectors from offices,
+                  apartment complexes and shops.
+                </p>
+                <a href="about.html"
+                  class="inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-lg">
+                  Learn More
+                </a>
+              </div>
+              <div class="text-center">
+                <div class="relative z-10 inline-block">
+                  <img src="./assets/images/about/about.jpg" alt="image" class="mx-auto lg:ml-auto" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== About Section End -->
+
+  <!-- ====== Blog Section Start -->
+  <section class="pt-20 pb-10 lg:pt-[120px] lg:pb-20" id="blogs">
+    <div class="container">
+      <div class="mx-auto mb-[60px] max-w-[620px] text-center lg:mb-20">
+        <span class="mb-2 block text-lg font-semibold text-primary">
+          Blogs
+        </span>
+        <h2 class="mb-4 text-3xl font-bold text-dark sm:text-4xl md:text-[42px]">
+          Explore Daily Blogs
+        </h2>
+      </div>
+      <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+          <div class="wow fadeInUp group mb-10" data-wow-delay=".1s">
+            <div class="mb-8 overflow-hidden rounded">
+              <a href="blog-details.html" class="block">
+                <img src="assets/images/blog/blog-01.jpg" alt="image"
+                  class="w-full transition group-hover:rotate-6 group-hover:scale-125" />
+              </a>
+            </div>
+            <div>
+              <span
+                class="mb-5 inline-block rounded bg-primary py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
+                April 15, 2023
+              </span>
+              <h3>
+                <a href="blog-details.html"
+                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
+                  Meet our Web Designers, the best designers in business
+                </a>
+              </h3>
+              <p class="text-base text-body-color">
+                Our designers are involve in high quality designs of web pages as per your desire
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+          <div class="wow fadeInUp group mb-10" data-wow-delay=".15s">
+            <div class="mb-8 overflow-hidden rounded">
+              <a href="blog-details.html" class="block">
+                <img src="assets/images/blog/blog-02.jpg" alt="image"
+                  class="w-full transition group-hover:rotate-6 group-hover:scale-125" />
+              </a>
+            </div>
+            <div>
+              <span
+                class="mb-5 inline-block rounded bg-primary py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
+                April 22, 2023
+              </span>
+              <h3>
+                <a href="blog-details.html"
+                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
+                  How to earn more money as a wellness coach
+                </a>
+              </h3>
+              <p class="text-base text-body-color">
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-1/2 lg:w-1/3">
+          <div class="wow fadeInUp group mb-10" data-wow-delay=".2s">
+            <div class="mb-8 overflow-hidden rounded">
+              <a href="blog-details.html" class="block">
+                <img src="assets/images/blog/blog-03.jpg" alt="image"
+                  class="w-full transition group-hover:rotate-6 group-hover:scale-125" />
+              </a>
+            </div>
+            <div>
+              <span
+                class="mb-5 inline-block rounded bg-primary py-1 px-4 text-center text-xs font-semibold leading-loose text-white">
+                May 05, 2023
+              </span>
+              <h3>
+                <a href="blog-details.html"
+                  class="mb-4 inline-block text-xl font-semibold text-dark hover:text-primary sm:text-2xl lg:text-xl xl:text-2xl">
+                  The no-fuss guide to upselling and cross selling
+                </a>
+              </h3>
+              <p class="text-base text-body-color">
+                Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="blogs.html"
+        class="inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-90 hover:shadow-lg">
+        See More
+      </a>
+    </div>
+  </section>
+  <!-- ====== Blog Section End -->
+
+  <!-- ====== Contact Start ====== -->
+  <section id="contactus" class="relative py-20 md:py-[120px]">
+    <div class="absolute top-0 left-0 z-[-1] h-1/2 w-full bg-[#f3f4fe] lg:h-[45%] xl:h-1/2"></div>
+    <div class="container px-4">
+      <div class="-mx-4 flex flex-wrap items-center">
+        <div class="w-full px-4 lg:w-7/12 xl:w-8/12">
+          <div class="ud-contact-content-wrapper">
+            <div class="ud-contact-title mb-12 lg:mb-[150px]">
+              <span class="mb-5 text-base font-semibold text-dark">
+                CONTACT US
+              </span>
+              <h2 class="text-[35px] font-semibold">
+                Let's talk about <br />
+                Love to hear from you!
+              </h2>
+            </div>
+            <div class="mb-12 flex flex-wrap justify-between lg:mb-0">
+              <div class="mb-8 flex w-[330px] max-w-full">
+                <div class="mr-6 text-[32px] text-primary">
+                  <svg width="29" height="35" viewBox="0 0 29 35" class="fill-current">
+                    <path
+                      d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z" />
+                    <path
+                      d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z" />
+                  </svg>
+                </div>
+                <div>
+                  <h5 class="mb-6 text-lg font-semibold">Our Location</h5>
+                  <p class="text-base text-body-color: text-black px-3 text-base text-[#f3f4fe] hover:text-primary">
+                    <a href="https://goo.gl/maps/PBsJe73rTja3VogM8">House Scheme no. 1, House no D 115, Gujar Khan,
+                      Rawalpindi</a>
+                  </p>
+                  <p class="text-base text-body-color: text-black px-3 text-base text-[#f3f4fe] hover:text-primary"><br>
+                    <a href="https://goo.gl/maps/EAkjorxaEjeQEqDz5">Shop # 60, Shopping Centre, Gujar Khan, Rawalpindi
+                      Gujar Khan</a>
+                  </p>
+                </div>
+              </div>
+              <div class="mb-8 flex w-[330px] max-w-full">
+                <div class="mr-6 text-[32px] text-primary">
+                  <svg width="34" height="25" viewBox="0 0 34 25" class="fill-current">
+                    <path
+                      d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z" />
+                  </svg>
+                </div>
+                <div>
+                  <h5 class="mb-6 text-lg font-semibold">How Can We Help?</h5>
+                  <p class="text-base text-body-color: text-black px-3 text-base text-[#f3f4fe] hover:text-primary"><a
+                      href="mailto:Cpenterprisesbv@gmail.com">Cpenterprisesbv@gmail.com</a></p>
+                </div>
+              </div>
+              <div class="mb-8 flex w-[330px] max-w-full">
+                <div class="mr-6 text-[32px] text-primary">
+                  <svg viewBox="-1.5 -1.5 18.00 18.00" height="35" width="29" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#504eef"
+                    stroke="#504eef">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <title>call [#504eef]</title>
+                      <desc>Created with Sketch.</desc>
+                      <defs> </defs>
+                      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Dribbble-Light-Preview" transform="translate(-103.000000, -7321.000000)" fill="#504eef">
+                          <g id="icons" transform="translate(56.000000, 160.000000)">
+                            <path
+                              d="M61.7302966,7173.99596 C61.2672966,7175.40296 59.4532966,7176.10496 58.1572966,7175.98796 C56.3872966,7175.82796 54.4612966,7174.88896 52.9992966,7173.85496 C50.8502966,7172.33496 48.8372966,7169.98396 47.6642966,7167.48896 C46.8352966,7165.72596 46.6492966,7163.55796 47.8822966,7161.95096 C48.3382966,7161.35696 48.8312966,7161.03996 49.5722966,7161.00296 C50.6002966,7160.95296 50.7442966,7161.54096 51.0972966,7162.45696 C51.3602966,7163.14196 51.7112966,7163.84096 51.9072966,7164.55096 C52.2742966,7165.87596 50.9912966,7165.93096 50.8292966,7167.01396 C50.7282966,7167.69696 51.5562966,7168.61296 51.9302966,7169.09996 C52.6632966,7170.05396 53.5442966,7170.87696 54.5382966,7171.50296 C55.1072966,7171.86196 56.0262966,7172.50896 56.6782966,7172.15196 C57.6822966,7171.60196 57.5872966,7169.90896 58.9912966,7170.48196 C59.7182966,7170.77796 60.4222966,7171.20496 61.1162966,7171.57896 C62.1892966,7172.15596 62.1392966,7172.75396 61.7302966,7173.99596 C61.4242966,7174.92396 62.0362966,7173.06796 61.7302966,7173.99596"
+                              id="call-[#504eef]"> </path>
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <h5 class="mb-6 text-lg font-semibold">Mobile No:</h5>
+                  <p class="text-base text-body-color: text-black px-3 text-base text-[#f3f4fe] hover:text-primary"><a
+                      href="tel:+923005165575">+92 300 516 55 75</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 lg:w-5/12 xl:w-4/12">
+          <div
+            class="wow fadeInUp rounded-lg bg-white py-10 px-8 shadow-testimonial sm:py-12 sm:px-10 md:p-[60px] lg:p-10 lg:py-12 lg:px-10 2xl:p-[60px]"
+            data-wow-delay=".2s
+              ">
+            <h3 class="mb-8 text-2xl font-semibold md:text-[26px]">
+              Send us a Message
+            </h3>
+            <form action="https://formsubmit.co/@cp-enterprises.com" method="post">
+              <div class="mb-6">
+                <label for="fullName" class="block text-xs text-dark">Full Name*</label>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="text" name="name" required placeholder="full name here"
+                  class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none" />
+              </div>
+              <div class="mb-6">
+                <label for="email" class="block text-xs text-dark">Email*</label>
+                <input type="hidden" name="_subject" value="new email whoo!!!" />
+                <input type="email" name="email" required placeholder="example@yourmail.com"
+                  class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none" />
+              </div>
+              <div class="mb-6">
+                <label for="phone" class="block text-xs text-dark">Subject*</label>
+                <input type="hidden" name="_subject" value="New submission!">
+                <input type="text" name="_subject" required placeholder="type your subject here"
+                  class="w-full border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none" />
+              </div>
+              <div class="mb-6">
+                <label for="message" class="block text-xs text-dark">Message*</label>
+                <textarea name="message" required rows="5" placeholder="type your message here"
+                  class="w-full resize-none border-0 border-b border-[#f1f1f1] py-4 focus:border-primary focus:outline-none"></textarea>
+              </div>
+              <div class="mb-0">
+                <button type="submit"
+                  class="inline-flex items-center justify-center rounded bg-primary py-4 px-6 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-dark">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ====== Contact End ====== -->
+
+  <!-- ====== Footer Section Start -->
+  <footer class="wow fadeInUp relative z-10 bg-black pt-20 lg:pt-[120px]" data-wow-delay=".15s">
+    <div class="container">
+      <div class="-mx-4 flex flex-wrap">
+        <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-4/12 xl:w-3/12">
+          <div class="mb-10 w-full">
+            <a href="index.html" class="mb-6 inline-block max-w-[160px]">
+              <img src="./assets/images/logo/logo-white.png" alt="logo" class="max-w-full" />
+            </a>
+            <p class="mb-7 text-base text-[#f3f4fe]">
+              We are providing services in import & exports, web designing, online advertising, marketing and ecommerce
+            </p>
+            <div class="-mx-3 flex items-center">
+              <a href="javascript:void(0)" class="px-3 text-[#dddddd] hover:text-white">
+                <svg width="10" height="18" viewBox="0 0 10 18" class="fill-current">
+                  <path
+                    d="M9.00007 6.82105H7.50006H6.96434V6.27097V4.56571V4.01562H7.50006H8.62507C8.91971 4.01562 9.16078 3.79559 9.16078 3.46554V0.550085C9.16078 0.247538 8.9465 0 8.62507 0H6.66969C4.55361 0 3.08038 1.54024 3.08038 3.82309V6.21596V6.76605H2.54466H0.72322C0.348217 6.76605 0 7.06859 0 7.50866V9.48897C0 9.87402 0.294645 10.2316 0.72322 10.2316H2.49109H3.02681V10.7817V16.31C3.02681 16.6951 3.32145 17.0526 3.75003 17.0526H6.26791C6.42862 17.0526 6.56255 16.9701 6.66969 16.8601C6.77684 16.7501 6.8572 16.5576 6.8572 16.3925V10.8092V10.2591H7.4197H8.62507C8.97328 10.2591 9.24114 10.0391 9.29471 9.709V9.6815V9.65399L9.66972 7.7562C9.6965 7.56367 9.66972 7.34363 9.509 7.1236C9.45543 6.98608 9.21436 6.84856 9.00007 6.82105Z" />
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="px-3 text-[#dddddd] hover:text-white">
+                <svg width="19" height="15" viewBox="0 0 19 15" class="fill-current">
+                  <path
+                    d="M16.2622 3.17878L17.33 1.93293C17.6391 1.59551 17.7234 1.33595 17.7515 1.20618C16.9085 1.67337 16.1217 1.82911 15.6159 1.82911H15.4192L15.3068 1.72528C14.6324 1.18022 13.7894 0.894714 12.8902 0.894714C10.9233 0.894714 9.37779 2.40012 9.37779 4.13913C9.37779 4.24295 9.37779 4.39868 9.40589 4.5025L9.49019 5.02161L8.90009 4.99565C5.30334 4.89183 2.35288 2.03675 1.87518 1.5436C1.08839 2.84136 1.53799 4.08722 2.01568 4.86587L2.97107 6.31937L1.45369 5.54071C1.48179 6.63084 1.93138 7.48736 2.80247 8.11029L3.56116 8.62939L2.80247 8.9149C3.28017 10.2386 4.34795 10.7837 5.13474 10.9913L6.17443 11.2509L5.19094 11.8738C3.61736 12.912 1.65039 12.8342 0.779297 12.7563C2.54957 13.8983 4.65705 14.1579 6.11823 14.1579C7.21412 14.1579 8.02901 14.0541 8.2257 13.9762C16.0936 12.2631 16.4589 5.77431 16.4589 4.47655V4.29486L16.6275 4.19104C17.5829 3.36047 17.9763 2.91923 18.2011 2.65967C18.1168 2.68563 18.0044 2.73754 17.892 2.7635L16.2622 3.17878Z" />
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="px-3 text-[#dddddd] hover:text-white">
+                <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
+                  <path
+                    d="M8.91688 12.4995C10.6918 12.4995 12.1306 11.0911 12.1306 9.35385C12.1306 7.61655 10.6918 6.20819 8.91688 6.20819C7.14197 6.20819 5.70312 7.61655 5.70312 9.35385C5.70312 11.0911 7.14197 12.4995 8.91688 12.4995Z" />
+                  <path
+                    d="M12.4078 0.947388H5.37075C2.57257 0.947388 0.300781 3.17104 0.300781 5.90993V12.7436C0.300781 15.5367 2.57257 17.7604 5.37075 17.7604H12.3524C15.2059 17.7604 17.4777 15.5367 17.4777 12.7978V5.90993C17.4777 3.17104 15.2059 0.947388 12.4078 0.947388ZM8.91696 13.4758C6.56206 13.4758 4.70584 11.6047 4.70584 9.35389C4.70584 7.10312 6.58976 5.23199 8.91696 5.23199C11.2165 5.23199 13.1004 7.10312 13.1004 9.35389C13.1004 11.6047 11.2442 13.4758 8.91696 13.4758ZM14.735 5.61164C14.4579 5.90993 14.0423 6.07264 13.5714 6.07264C13.1558 6.07264 12.7402 5.90993 12.4078 5.61164C12.103 5.31334 11.9368 4.9337 11.9368 4.47269C11.9368 4.01169 12.103 3.65916 12.4078 3.33375C12.7125 3.00834 13.1004 2.84563 13.5714 2.84563C13.9869 2.84563 14.4302 3.00834 14.735 3.30663C15.012 3.65916 15.2059 4.06593 15.2059 4.49981C15.1782 4.9337 15.012 5.31334 14.735 5.61164Z" />
+                  <path
+                    d="M13.5985 3.82184C13.2383 3.82184 12.9336 4.12013 12.9336 4.47266C12.9336 4.82519 13.2383 5.12349 13.5985 5.12349C13.9587 5.12349 14.2634 4.82519 14.2634 4.47266C14.2634 4.12013 13.9864 3.82184 13.5985 3.82184Z" />
+                </svg>
+              </a>
+              <a href="javascript:void(0)" class="px-3 text-[#dddddd] hover:text-white">
+                <svg width="18" height="18" viewBox="0 0 18 18" class="fill-current">
+                  <path
+                    d="M16.7821 0.947388H1.84847C1.14272 0.947388 0.578125 1.49747 0.578125 2.18508V16.7623C0.578125 17.4224 1.14272 18 1.84847 18H16.7257C17.4314 18 17.996 17.4499 17.996 16.7623V2.15757C18.0525 1.49747 17.4879 0.947388 16.7821 0.947388ZM5.7442 15.4421H3.17528V7.32837H5.7442V15.4421ZM4.44563 6.2007C3.59873 6.2007 2.94944 5.5406 2.94944 4.74297C2.94944 3.94535 3.62696 3.28525 4.44563 3.28525C5.26429 3.28525 5.94181 3.94535 5.94181 4.74297C5.94181 5.5406 5.32075 6.2007 4.44563 6.2007ZM15.4835 15.4421H12.9146V11.509C12.9146 10.5739 12.8864 9.33618 11.5596 9.33618C10.2045 9.33618 10.0069 10.3813 10.0069 11.4265V15.4421H7.438V7.32837H9.95046V8.45605H9.9787C10.3457 7.79594 11.1644 7.13584 12.4347 7.13584C15.0601 7.13584 15.54 8.7861 15.54 11.0414V15.4421H15.4835Z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+          <div class="mb-10 w-full">
+            <h4 class="mb-9 text-lg font-semibold text-white">About Us</h4>
+            <ul>
+              <li>
+                <a href="index.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a href="index.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Features
+                </a>
+              </li>
+              <li>
+                <a href="about.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  About
+                </a>
+              </li>
+              <li>
+                <a href="blogs.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Blogs
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-3/12 xl:w-2/12">
+          <div class="mb-10 w-full">
+            <h4 class="mb-9 text-lg font-semibold text-white">Services</h4>
+            <ul>
+              <li>
+                <a href="products.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Online Products and Materials
+                </a>
+              </li>
+              <li>
+                <a href="web-designing.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Web Designing
+                </a>
+              </li>
+              <li>
+                <a href="online-advertising.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Online Advertising
+                </a>
+              </li>
+              <li>
+                <a href="marketing.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Marketing
+                </a>
+              </li>
+              <li>
+                <a href="ecommerce.html"
+                  class="mb-2 inline-block text-base leading-loose text-[#f3f4fe] hover:text-primary">
+                  Ecommerce
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+          <div class="mb-10 w-full">
+            <h4 class="mb-9 text-lg font-semibold text-white">Licensed By</h4>
+            <ul>
+              <li class="mb-2 inline-block text-base leading-loose text-[#f3f4fe]">
+                FBR - Inland Revenue Service
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="w-full px-4 md:w-2/3 lg:w-6/12 xl:w-3/12">
+          <div class="mb-10 w-full">
+            <h4 class="mb-9 text-lg font-semibold text-white"></h4>
+            <ul class="flex flex-wrap items-center">
+              <li>
+                <a href="" rel="nofollow noopner" target="_blank"
+                  class="mb-6 mr-5 block max-w-[150px] xl:max-w-[150px] 2xl:max-w-[120px]">
+                  <img src="./assets/images/footer/fbr.png" alt="fbr" />
+                </a>
+              </li>
+              <li>
+                <a href="" rel="nofollow noopner" target="_blank"
+                  class="mb-6 mr-5 block max-w-[150px] xl:max-w-[150px] 2xl:max-w-[120px]">
+                  <img src="./assets/images/footer/irs.png" alt="fbr" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-12 border-t border-opacity-40 py-8 lg:mt-[60px]">
+      <div class="container">
+        <div class="-mx-4 flex flex-wrap">
+          <div class="w-full px-4 md:w-2/3 lg:w-1/2">
+            <div class="my-1">
+              <div class="-mx-3 flex items-center justify-center md:justify-start">
+                <a href="javascript:void(0)" class="px-3 text-base text-[#f3f4fe] hover:text-primary">
+                  Privacy policy
+                </a>
+                <a href="javascript:void(0)" class="px-3 text-base text-[#f3f4fe] hover:text-primary">
+                  Legal notice
+                </a>
+                <a href="javascript:void(0)" class="px-3 text-base text-[#f3f4fe] hover:text-primary">
+                  Terms of service
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full px-4 md:w-1/3 lg:w-1/2">
+            <div class="my-1 flex justify-center md:justify-end text-color: text-white ">
+              All Rights Reserved &nbsp; © 2022 CP Enterprises
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <span class="absolute left-0 top-0 z-[-1]">
+        <img src="assets/images/footer/shape-1.svg" alt="" />
+      </span>
+
+      <span class="absolute bottom-0 right-0 z-[-1]">
+        <img src="assets/images/footer/shape-3.svg" alt="" />
+      </span>
+
+      <span class="absolute top-0 right-0 z-[-1]">
+        <svg width="102" height="102" viewBox="0 0 102 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M1.8667 33.1956C2.89765 33.1956 3.7334 34.0318 3.7334 35.0633C3.7334 36.0947 2.89765 36.9309 1.8667 36.9309C0.835744 36.9309 4.50645e-08 36.0947 0 35.0633C-4.50645e-08 34.0318 0.835744 33.1956 1.8667 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 33.1956C19.3249 33.1956 20.1606 34.0318 20.1606 35.0633C20.1606 36.0947 19.3249 36.9309 18.2939 36.9309C17.263 36.9309 16.4272 36.0947 16.4272 35.0633C16.4272 34.0318 17.263 33.1956 18.2939 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 33.195C35.7519 33.195 36.5876 34.0311 36.5876 35.0626C36.5876 36.0941 35.7519 36.9303 34.7209 36.9303C33.69 36.9303 32.8542 36.0941 32.8542 35.0626C32.8542 34.0311 33.69 33.195 34.7209 33.195Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 33.195C51.965 33.195 52.8008 34.0311 52.8008 35.0626C52.8008 36.0941 51.965 36.9303 50.9341 36.9303C49.9031 36.9303 49.0674 36.0941 49.0674 35.0626C49.0674 34.0311 49.9031 33.195 50.9341 33.195Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 16.7605C2.89765 16.7605 3.7334 17.5966 3.7334 18.6281C3.7334 19.6596 2.89765 20.4957 1.8667 20.4957C0.835744 20.4957 4.50645e-08 19.6596 0 18.6281C-4.50645e-08 17.5966 0.835744 16.7605 1.8667 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 16.7605C19.3249 16.7605 20.1606 17.5966 20.1606 18.6281C20.1606 19.6596 19.3249 20.4957 18.2939 20.4957C17.263 20.4957 16.4272 19.6596 16.4272 18.6281C16.4272 17.5966 17.263 16.7605 18.2939 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 16.7605C35.7519 16.7605 36.5876 17.5966 36.5876 18.6281C36.5876 19.6596 35.7519 20.4957 34.7209 20.4957C33.69 20.4957 32.8542 19.6596 32.8542 18.6281C32.8542 17.5966 33.69 16.7605 34.7209 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 16.7605C51.965 16.7605 52.8008 17.5966 52.8008 18.6281C52.8008 19.6596 51.965 20.4957 50.9341 20.4957C49.9031 20.4957 49.0674 19.6596 49.0674 18.6281C49.0674 17.5966 49.9031 16.7605 50.9341 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 0.324951C2.89765 0.324951 3.7334 1.16115 3.7334 2.19261C3.7334 3.22408 2.89765 4.06024 1.8667 4.06024C0.835744 4.06024 4.50645e-08 3.22408 0 2.19261C-4.50645e-08 1.16115 0.835744 0.324951 1.8667 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 0.324951C19.3249 0.324951 20.1606 1.16115 20.1606 2.19261C20.1606 3.22408 19.3249 4.06024 18.2939 4.06024C17.263 4.06024 16.4272 3.22408 16.4272 2.19261C16.4272 1.16115 17.263 0.324951 18.2939 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 0.325302C35.7519 0.325302 36.5876 1.16147 36.5876 2.19293C36.5876 3.2244 35.7519 4.06056 34.7209 4.06056C33.69 4.06056 32.8542 3.2244 32.8542 2.19293C32.8542 1.16147 33.69 0.325302 34.7209 0.325302Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 0.325302C51.965 0.325302 52.8008 1.16147 52.8008 2.19293C52.8008 3.2244 51.965 4.06056 50.9341 4.06056C49.9031 4.06056 49.0674 3.2244 49.0674 2.19293C49.0674 1.16147 49.9031 0.325302 50.9341 0.325302Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 33.1956C67.9346 33.1956 68.7704 34.0318 68.7704 35.0633C68.7704 36.0947 67.9346 36.9309 66.9037 36.9309C65.8727 36.9309 65.037 36.0947 65.037 35.0633C65.037 34.0318 65.8727 33.1956 66.9037 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 33.1956C84.3616 33.1956 85.1974 34.0318 85.1974 35.0633C85.1974 36.0947 84.3616 36.9309 83.3307 36.9309C82.2997 36.9309 81.464 36.0947 81.464 35.0633C81.464 34.0318 82.2997 33.1956 83.3307 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 33.1956C100.789 33.1956 101.624 34.0318 101.624 35.0633C101.624 36.0947 100.789 36.9309 99.7576 36.9309C98.7266 36.9309 97.8909 36.0947 97.8909 35.0633C97.8909 34.0318 98.7266 33.1956 99.7576 33.1956Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 16.7605C67.9346 16.7605 68.7704 17.5966 68.7704 18.6281C68.7704 19.6596 67.9346 20.4957 66.9037 20.4957C65.8727 20.4957 65.037 19.6596 65.037 18.6281C65.037 17.5966 65.8727 16.7605 66.9037 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 16.7605C84.3616 16.7605 85.1974 17.5966 85.1974 18.6281C85.1974 19.6596 84.3616 20.4957 83.3307 20.4957C82.2997 20.4957 81.464 19.6596 81.464 18.6281C81.464 17.5966 82.2997 16.7605 83.3307 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 16.7605C100.789 16.7605 101.624 17.5966 101.624 18.6281C101.624 19.6596 100.789 20.4957 99.7576 20.4957C98.7266 20.4957 97.8909 19.6596 97.8909 18.6281C97.8909 17.5966 98.7266 16.7605 99.7576 16.7605Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 0.324966C67.9346 0.324966 68.7704 1.16115 68.7704 2.19261C68.7704 3.22408 67.9346 4.06024 66.9037 4.06024C65.8727 4.06024 65.037 3.22408 65.037 2.19261C65.037 1.16115 65.8727 0.324966 66.9037 0.324966Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 0.324951C84.3616 0.324951 85.1974 1.16115 85.1974 2.19261C85.1974 3.22408 84.3616 4.06024 83.3307 4.06024C82.2997 4.06024 81.464 3.22408 81.464 2.19261C81.464 1.16115 82.2997 0.324951 83.3307 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 0.324951C100.789 0.324951 101.624 1.16115 101.624 2.19261C101.624 3.22408 100.789 4.06024 99.7576 4.06024C98.7266 4.06024 97.8909 3.22408 97.8909 2.19261C97.8909 1.16115 98.7266 0.324951 99.7576 0.324951Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 82.2029C2.89765 82.2029 3.7334 83.039 3.7334 84.0705C3.7334 85.102 2.89765 85.9382 1.8667 85.9382C0.835744 85.9382 4.50645e-08 85.102 0 84.0705C-4.50645e-08 83.039 0.835744 82.2029 1.8667 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 82.2029C19.3249 82.2029 20.1606 83.039 20.1606 84.0705C20.1606 85.102 19.3249 85.9382 18.2939 85.9382C17.263 85.9382 16.4272 85.102 16.4272 84.0705C16.4272 83.039 17.263 82.2029 18.2939 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 82.2026C35.7519 82.2026 36.5876 83.0387 36.5876 84.0702C36.5876 85.1017 35.7519 85.9378 34.7209 85.9378C33.69 85.9378 32.8542 85.1017 32.8542 84.0702C32.8542 83.0387 33.69 82.2026 34.7209 82.2026Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 82.2026C51.965 82.2026 52.8008 83.0387 52.8008 84.0702C52.8008 85.1017 51.965 85.9378 50.9341 85.9378C49.9031 85.9378 49.0674 85.1017 49.0674 84.0702C49.0674 83.0387 49.9031 82.2026 50.9341 82.2026Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 65.7677C2.89765 65.7677 3.7334 66.6039 3.7334 67.6353C3.7334 68.6668 2.89765 69.503 1.8667 69.503C0.835744 69.503 4.50645e-08 68.6668 0 67.6353C-4.50645e-08 66.6039 0.835744 65.7677 1.8667 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 65.7677C19.3249 65.7677 20.1606 66.6039 20.1606 67.6353C20.1606 68.6668 19.3249 69.503 18.2939 69.503C17.263 69.503 16.4272 68.6668 16.4272 67.6353C16.4272 66.6039 17.263 65.7677 18.2939 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 65.7674C35.7519 65.7674 36.5876 66.6036 36.5876 67.635C36.5876 68.6665 35.7519 69.5027 34.7209 69.5027C33.69 69.5027 32.8542 68.6665 32.8542 67.635C32.8542 66.6036 33.69 65.7674 34.7209 65.7674Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 65.7674C51.965 65.7674 52.8008 66.6036 52.8008 67.635C52.8008 68.6665 51.965 69.5027 50.9341 69.5027C49.9031 69.5027 49.0674 68.6665 49.0674 67.635C49.0674 66.6036 49.9031 65.7674 50.9341 65.7674Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 98.2644C2.89765 98.2644 3.7334 99.1005 3.7334 100.132C3.7334 101.163 2.89765 102 1.8667 102C0.835744 102 4.50645e-08 101.163 0 100.132C-4.50645e-08 99.1005 0.835744 98.2644 1.8667 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M1.8667 49.3322C2.89765 49.3322 3.7334 50.1684 3.7334 51.1998C3.7334 52.2313 2.89765 53.0675 1.8667 53.0675C0.835744 53.0675 4.50645e-08 52.2313 0 51.1998C-4.50645e-08 50.1684 0.835744 49.3322 1.8667 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 98.2644C19.3249 98.2644 20.1606 99.1005 20.1606 100.132C20.1606 101.163 19.3249 102 18.2939 102C17.263 102 16.4272 101.163 16.4272 100.132C16.4272 99.1005 17.263 98.2644 18.2939 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M18.2939 49.3322C19.3249 49.3322 20.1606 50.1684 20.1606 51.1998C20.1606 52.2313 19.3249 53.0675 18.2939 53.0675C17.263 53.0675 16.4272 52.2313 16.4272 51.1998C16.4272 50.1684 17.263 49.3322 18.2939 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 98.2647C35.7519 98.2647 36.5876 99.1008 36.5876 100.132C36.5876 101.164 35.7519 102 34.7209 102C33.69 102 32.8542 101.164 32.8542 100.132C32.8542 99.1008 33.69 98.2647 34.7209 98.2647Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 98.2647C51.965 98.2647 52.8008 99.1008 52.8008 100.132C52.8008 101.164 51.965 102 50.9341 102C49.9031 102 49.0674 101.164 49.0674 100.132C49.0674 99.1008 49.9031 98.2647 50.9341 98.2647Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M34.7209 49.3326C35.7519 49.3326 36.5876 50.1687 36.5876 51.2002C36.5876 52.2317 35.7519 53.0678 34.7209 53.0678C33.69 53.0678 32.8542 52.2317 32.8542 51.2002C32.8542 50.1687 33.69 49.3326 34.7209 49.3326Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M50.9341 49.3326C51.965 49.3326 52.8008 50.1687 52.8008 51.2002C52.8008 52.2317 51.965 53.0678 50.9341 53.0678C49.9031 53.0678 49.0674 52.2317 49.0674 51.2002C49.0674 50.1687 49.9031 49.3326 50.9341 49.3326Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 82.2029C67.9346 82.2029 68.7704 83.0391 68.7704 84.0705C68.7704 85.102 67.9346 85.9382 66.9037 85.9382C65.8727 85.9382 65.037 85.102 65.037 84.0705C65.037 83.0391 65.8727 82.2029 66.9037 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 82.2029C84.3616 82.2029 85.1974 83.0391 85.1974 84.0705C85.1974 85.102 84.3616 85.9382 83.3307 85.9382C82.2997 85.9382 81.464 85.102 81.464 84.0705C81.464 83.0391 82.2997 82.2029 83.3307 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 82.2029C100.789 82.2029 101.624 83.039 101.624 84.0705C101.624 85.102 100.789 85.9382 99.7576 85.9382C98.7266 85.9382 97.8909 85.102 97.8909 84.0705C97.8909 83.039 98.7266 82.2029 99.7576 82.2029Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 65.7674C67.9346 65.7674 68.7704 66.6036 68.7704 67.635C68.7704 68.6665 67.9346 69.5027 66.9037 69.5027C65.8727 69.5027 65.037 68.6665 65.037 67.635C65.037 66.6036 65.8727 65.7674 66.9037 65.7674Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 65.7677C84.3616 65.7677 85.1974 66.6039 85.1974 67.6353C85.1974 68.6668 84.3616 69.503 83.3307 69.503C82.2997 69.503 81.464 68.6668 81.464 67.6353C81.464 66.6039 82.2997 65.7677 83.3307 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 65.7677C100.789 65.7677 101.624 66.6039 101.624 67.6353C101.624 68.6668 100.789 69.503 99.7576 69.503C98.7266 69.503 97.8909 68.6668 97.8909 67.6353C97.8909 66.6039 98.7266 65.7677 99.7576 65.7677Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 98.2644C67.9346 98.2644 68.7704 99.1005 68.7704 100.132C68.7704 101.163 67.9346 102 66.9037 102C65.8727 102 65.037 101.163 65.037 100.132C65.037 99.1005 65.8727 98.2644 66.9037 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M66.9037 49.3322C67.9346 49.3322 68.7704 50.1684 68.7704 51.1998C68.7704 52.2313 67.9346 53.0675 66.9037 53.0675C65.8727 53.0675 65.037 52.2313 65.037 51.1998C65.037 50.1684 65.8727 49.3322 66.9037 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 98.2644C84.3616 98.2644 85.1974 99.1005 85.1974 100.132C85.1974 101.163 84.3616 102 83.3307 102C82.2997 102 81.464 101.163 81.464 100.132C81.464 99.1005 82.2997 98.2644 83.3307 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M83.3307 49.3322C84.3616 49.3322 85.1974 50.1684 85.1974 51.1998C85.1974 52.2313 84.3616 53.0675 83.3307 53.0675C82.2997 53.0675 81.464 52.2313 81.464 51.1998C81.464 50.1684 82.2997 49.3322 83.3307 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 98.2644C100.789 98.2644 101.624 99.1005 101.624 100.132C101.624 101.163 100.789 102 99.7576 102C98.7266 102 97.8909 101.163 97.8909 100.132C97.8909 99.1005 98.7266 98.2644 99.7576 98.2644Z"
+            fill="white" fill-opacity="0.08"></path>
+          <path
+            d="M99.7576 49.3322C100.789 49.3322 101.624 50.1684 101.624 51.1998C101.624 52.2313 100.789 53.0675 99.7576 53.0675C98.7266 53.0675 97.8909 52.2313 97.8909 51.1998C97.8909 50.1684 98.7266 49.3322 99.7576 49.3322Z"
+            fill="white" fill-opacity="0.08"></path>
+        </svg>
+      </span>
+    </div>
+  </footer>
+  <!-- ====== Footer Section End -->
+
+  <!-- ====== Back To Top Start -->
+  <a href="javascript:void(0)"
+    class="back-to-top fixed bottom-8 right-8 left-auto z-[999] hidden h-10 w-10 items-center justify-center rounded-md bg-primary text-white shadow-md transition duration-300 ease-in-out hover:bg-dark">
+    <span class="mt-[6px] h-3 w-3 rotate-45 border-t border-l border-white"></span>
+  </a>
+  <!-- ====== Back To Top End -->
+
+  <!-- ====== All Scripts -->
+
+  <script src="assets/js/main.js"></script>
+  <script>
+    // ==== for menu scroll
+    const pageLink = document.querySelectorAll(".ud-menu-scroll");
+
+    pageLink.forEach((elem) => {
+      elem.addEventListener("click", (e) => {
+        e.preventDefault();
+        document.querySelector(elem.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+          offsetTop: 1 - 60,
+        });
+      });
+    });
+
+    // section menu active
+    function onScroll(event) {
+      const sections = document.querySelectorAll(".ud-menu-scroll");
+      const scrollPos =
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop;
+
+      for (let i = 0; i < sections.length; i++) {
+        const currLink = sections[i];
+        const val = currLink.getAttribute("href");
+        const refElement = document.querySelector(val);
+        const scrollTopMinus = scrollPos + 73;
+        if (
+          refElement.offsetTop <= scrollTopMinus &&
+          refElement.offsetTop + refElement.offsetHeight > scrollTopMinus
+        ) {
+          document
+            .querySelector(".ud-menu-scroll")
+            .classList.remove("active");
+          currLink.classList.add("active");
+        } else {
+          currLink.classList.remove("active");
+        }
+      }
+    }
+
+    window.document.addEventListener("scroll", onScroll);
+  </script>
+</body>
+
+</html>
